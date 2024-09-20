@@ -1,0 +1,35 @@
+.career-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    /* background-color: #f5f5f5; */
+  }
+  
+  .career-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .career-content h2 {
+    font-size: 28px;
+    color: #44425a;
+  }
+  
+  .career-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #44425a;
+  }
+  
+  .career-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .career-image img {
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 8px; */
+  }
+  

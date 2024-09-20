@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Courses</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Elearn project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<link href="plugins/video-js/video-js.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/courses.css">
+<link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
+<!-- <link rel="stylesheet" type="text/css" href="styles/main_styles.css"> -->
+
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header">
+			
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="top_bar_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+								<ul class="top_bar_contact_list">
+									<li><div class="question">Have any questions?</div></li>
+									<li>
+										<div>(009) 35475 6688933 32</div>
+									</li>
+									<li>
+										<div>info@elaerntemplate.com</div>
+									</li>
+								</ul>
+								<div class="top_bar_login ml-auto">
+									<ul>
+										<li><a href="#">Register</a></li>
+										<li><a href="#">Login</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>				
+		</div>
+
+		<!-- Header Content -->
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<div class="logo_container">
+								<a href="#">
+									<div class="logo_content d-flex flex-row align-items-end justify-content-start">
+										<div class="logo_img"><img src="images/learnum_LOGO (1).png" height="70" alt=""></div>
+									</div>
+								</a>
+							</div>
+							<nav class="main_nav_contaner ml-auto">
+								<ul class="main_nav">
+									<li ><a href="index.html">home</a></li>
+									<li ><a href="about.html">about us</a></li>
+									<li class="active"><a href="courses.html">courses</a></li>
+									<li ><a href="carrers.html">carrers</a></li>
+									<li><a href="media.html">Media</a></li>
+									<li ><a href="placement.html">placement</a></li>
+									<li ><a href="contact.html">contact</a></li>
+								</ul>
+								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
+
+								<!-- Hamburger -->
+
+								<div class="hamburger menu_mm">
+									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+								</div>
+							</nav>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Search Panel -->
+		<div class="header_search_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_search_content d-flex flex-row align-items-center justify-content-end">
+							<form action="#" class="header_search_form">
+								<input type="search" class="search_input" placeholder="Search" required="required">
+								<button class="header_search_button d-flex flex-column align-items-center justify-content-center">
+									<i class="fa fa-search" aria-hidden="true"></i>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>			
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<div class="search">
+			<form action="#" class="header_search_form menu_mm">
+				<input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+				<button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+					<i class="fa fa-search menu_mm" aria-hidden="true"></i>
+				</button>
+			</form>
+		</div>
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li ><a href="index.html">home</a></li>
+				<li ><a href="about.html">about us</a></li>
+				<li  class="active"><a href="courses.html">courses</a></li>
+				<li><a href="carrers.html">carrers</a></li>
+				<li><a href="media.html">Media</a></li>
+				<li><a href="courses.html">placement</a></li>
+				<li ><a href="contact.html">contact</a></li>
+			</ul>
+		</nav>
+		<div class="menu_extra">
+			<div class="menu_phone"><span class="menu_title">phone:</span>(009) 35475 6688933 32</div>
+			<div class="menu_social">
+				<span class="menu_title">follow us</span>
+				<ul>
+					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home mb-5 ">
+		<!-- Background image artist https://unsplash.com/@thepootphotographer -->
+		<div class="home_background parallax_background parallax-window" data-parallax="scroll" data-image-src="images/courses.jpg" data-speed="0.8"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content text-center">
+							<div class="home_title">Courses</div>
+							<div class="breadcrumbs">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li>Courses</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Courses -->
+	  <section id="courses" class="py-5">
+		<div class="container">
+		  <div class="section-title text-center mb-5">
+			<h2>Our Courses</h2>
+		  </div>
+	  
+		  <!-- Tabs -->
+		  <ul class="nav nav-tabs justify-content-center" id="courseTabs" role="tablist">
+			<li class="nav-item">
+			  <a class="nav-link active" id="finance-tab" data-toggle="tab" href="#dat" role="tab">DAT</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" id="marketing-tab" data-toggle="tab" href="#tally" role="tab">Advance Tally 4.0</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" id="hr-tab" data-toggle="tab" href="#practicalAccount" role="tab">Practical Account</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" id="it-tab" data-toggle="tab" href="#sapFI" role="tab">SAP FI</a>
+			</li>
+			
+			  <li class="nav-item">
+				<a class="nav-link" id="it-tab" data-toggle="tab" href="#sapHCM" role="tab">SAP HCM</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id="it-tab" data-toggle="tab" href="#sapABAP" role="tab">SAP ABAP</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id="it-tab" data-toggle="tab" href="#digitalMarketing" role="tab">Digital Marketing</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id="it-tab" data-toggle="tab" href="#fullStack" role="tab">Full Stack</a>
+			  </li>
+		  </ul>
+	  
+		  <!-- Tab Content -->
+		  <div class="tab-content pt-4" id="courseTabsContent">
+			<!-- Finance Courses -->
+			<div class="tab-pane fade show active" id="dat" role="tabpanel">
+				<div class="row">
+					<!-- Course Card -->
+					<div class="col-md-12">
+					  <div class="card course-card p-4">
+						<!-- Course Name Heading at the Top -->
+						<h2 class="text-center mb-4"><b>DAT (Diploma in Accounting and Taxation)</b></h2>
+						
+						<div class="row ">
+						  <!-- Course Information (Left side) -->
+						  <div class="col-md-8">
+							<div class="course-info">
+							  <p >
+								DAT (Diploma in Accounting and Taxation) course meets the industry standards. The course curriculum covers basic to advanced accounting, Income Tax & TDs, Tally ERP 9 with GST, and Auditing.
+							</p>
+							</div>
+							<div class=" mt-5">
+								<button _ngcontent-ess-c29="" type="button" class="btn" style="background-color: #39496C; color: #F69456; border: 1px solid #F69456;">
+									Download Syllabus
+									 <img _ngcontent-ess-c29="" src="https://learnum.co.in/assets/images/Learnum_UI/featherIcon/download%20(3).svg" alt="" width="18" height="18">
+								</button>						 
+								<button _ngcontent-ess-c29="" class="btn solid_btn" style="background-color:#F69456; ;"  >Apply Now</button>
+							</div>
+						  </div>
+				  
+						  <!-- Course Image (Right side) -->
+						  <div class="col-md-4 text-center">
+							<img src="https://learnum.co.in/assets/images/Learnum_UI/Image/CPAT.png" class="img-fluid" alt="DAT Course Image">
+						  </div>
+						</div>
+				  
+						<!-- Centered Buttons -->
+						
+					  </div>
+					</div>
+				  </div>
+			</div>
+			<div class="tab-pane" id="tally" role="tabpanel">
+				<div class="row">
+					<!-- Course Card -->
+					<div class="col-md-12">
+					  <div class="card course-card p-4">
+						<!-- Course Name Heading at the Top -->
+						<h2 class="text-center mb-4"><b>Advance Tally 4.0</b></h2>
+						
+						<div class="row ">
+						  <!-- Course Information (Left side) -->
+						  <div class="col-md-8">
+							<div class="course-info">
+							  <p >
+								The Advance Tally 4.0 course provides foundational knowledge in accounting principles and bookkeeping techniques, preparing individuals for entry-level roles in accounting firms, corporations, or government agencies, with a focus on financial statements, payroll procedures, and regulatory compliance.
+							  </p>
+							</div>
+							<!-- Centered Buttons -->
+						<div class=" mt-5">
+							<button _ngcontent-ess-c29="" type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn" style="background-color: #39496C; color: #F69456; border: 1px solid #F69456;">
+								Download Syllabus
+								 <img _ngcontent-ess-c29="" src="https://learnum.co.in/assets/images/Learnum_UI/featherIcon/download%20(3).svg" alt="" width="18" height="18">
+							</button>						 
+							<button _ngcontent-ess-c29="" class="btn solid_btn" style="background-color:#F69456; ;"  >Apply Now</button>
+						</div>
+						  </div>
+				  
+						  <!-- Course Image (Right side) -->
+						  <div class="col-md-4 text-center">
+							<img src="https://learnum.co.in/assets/images/Learnum_UI/Image/junior%20accountant.png" style="width: 322px;" class="img-fluid" alt="DAT Course Image">
+						  </div>
+						</div>
+				  
+						
+					  </div>
+					</div>
+				  </div>
+			</div>
+			<div class="tab-pane" id="practicalAccount" role="tabpanel">
+				<div class="row">
+					<!-- Course Card -->
+					<div class="col-md-12">
+					  <div class="card course-card p-4">
+						<!-- Course Name Heading at the Top -->
+						<h2 class="text-center mb-4"><b>Practical Accountant</b></h2>
+						
+						<div class="row ">
+						  <!-- Course Information (Left side) -->
+						  <div class="col-md-8">
+							<div class="course-info">
+							  <p >
+								Explore your 11th and 12th Standard syllabus practically with our Practical Account course. Dive into Accounting and Bookkeeping using Tally and other software, ensuring hands-on learning every day for 2 hours, including both practical and theory sessions.
+							  </p>
+							</div>
+							<!-- Centered Buttons -->
+						<div class=" mt-5">
+							<button _ngcontent-ess-c29="" type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn" style="background-color: #39496C; color: #F69456; border: 1px solid #F69456;">
+								Download Syllabus
+								 <img _ngcontent-ess-c29="" src="https://learnum.co.in/assets/images/Learnum_UI/featherIcon/download%20(3).svg" alt="" width="18" height="18">
+							</button>						 
+							<button _ngcontent-ess-c29="" class="btn solid_btn" style="background-color:#F69456; ;"  >Apply Now</button>
+						</div>
+						  </div>
+				  
+						  <!-- Course Image (Right side) -->
+						  <div class="col-md-4 text-center">
+							<img src="https://learnum.co.in/assets/images/Learnum_UI/Image/practical%20account%201.png" style="width: 322px;" class="img-fluid" alt="DAT Course Image">
+						  </div>
+						</div>
+				  
+						
+					  </div>
+					</div>
+				  </div>
+			</div>
+			<div class="tab-pane" id="sapFI" role="tabpanel">
+				<div class="row">
+					<!-- Course Card -->
+					<div class="col-md-12">
+					  <div class="card course-card p-4">
+						<!-- Course Name Heading at the Top -->
+						<h2 class="text-center mb-4"><b>SAP Financial Accounting</b></h2>
+						
+						<div class="row ">
+						  <!-- Course Information (Left side) -->
+						  <div class="col-md-8">
+							<div class="course-info">
+							  <p >
+								The SAP Financial Accounting (SAP FI) Training Course is tailored to empower individuals with the knowledge and skills essential for managing financial accounting processes within SAP's comprehensive ERP system.							  </p>
+							  </p>
+							</div>
+							<!-- Centered Buttons -->
+						<div class=" mt-5">
+							<button _ngcontent-ess-c29="" type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn" style="background-color: #39496C; color: #F69456; border: 1px solid #F69456;">
+								Download Syllabus
+								 <img _ngcontent-ess-c29="" src="https://learnum.co.in/assets/images/Learnum_UI/featherIcon/download%20(3).svg" alt="" width="18" height="18">
+							</button>						 
+							<button _ngcontent-ess-c29="" class="btn solid_btn" style="background-color:#F69456; ;"  >Apply Now</button>
+						</div>
+						  </div>
+				  
+						  <!-- Course Image (Right side) -->
+						  <div class="col-md-4 text-center">
+							<img src="https://learnum.co.in/assets/images/Learnum_UI/Image/man-wearing-t-shirt-gesturing%201.png" style="width: 322px;" class="img-fluid" alt="DAT Course Image">
+						  </div>
+						</div>
+				  
+						
+					  </div>
+					</div>
+				  </div>
+			</div>
+			<div class="tab-pane" id="sapHCM" role="tabpanel">
+				<div class="row">
+					<!-- Course Card -->
+					<div class="col-md-12">
+					  <div class="card course-card p-4">
+						<!-- Course Name Heading at the Top -->
+						<h2 class="text-center mb-4"><b>SAP Human Capital Management</b></h2>
+						
+						<div class="row ">
+						  <!-- Course Information (Left side) -->
+						  <div class="col-md-8">
+							<div class="course-info">
+							  <p>
+								Unlock the potential of SAP Human Capital Management (HCM) with our comprehensive training course.Designed for aspiring HR professionals and seasoned practitioners alike, this course equips individuals with the essential skills and knowledge required to effectively manage human resources within organizations using SAP HCM software.
+								</p>
+							</div>
+							<!-- Centered Buttons -->
+						<div class=" mt-5">
+							<button _ngcontent-ess-c29="" type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn" style="background-color: #39496C; color: #F69456; border: 1px solid #F69456;">
+								Download Syllabus
+								 <img _ngcontent-ess-c29="" src="https://learnum.co.in/assets/images/Learnum_UI/featherIcon/download%20(3).svg" alt="" width="18" height="18">
+							</button>						 
+							<button _ngcontent-ess-c29="" class="btn solid_btn" style="background-color:#F69456; ;"  >Apply Now</button>
+						</div>
+						  </div>
+				  
+						  <!-- Course Image (Right side) -->
+						  <div class="col-md-4 text-center">
+							<img src="https://learnum.co.in/assets/images/Learnum_UI/Image/SAP%20Human%20Capital%20Management%20(HCM)%201.png" style="width: 322px;" class="img-fluid" alt="DAT Course Image">
+						  </div>
+						</div>
+				  
+						
+					  </div>
+					</div>
+				  </div>
+			</div>
+			<div class="tab-pane" id="sapABAP" role="tabpanel">
+				<div class="row">
+					<!-- Course Card -->
+					<div class="col-md-12">
+					  <div class="card course-card p-4">
+						<!-- Course Name Heading at the Top -->
+						<h2 class="text-center mb-4"><b>ABAP(Advanced Business Application Programming)</b></h2>
+						
+						<div class="row ">
+						  <!-- Course Information (Left side) -->
+						  <div class="col-md-8">
+							<div class="course-info">
+							  <p>
+								Our SAP ABAP Training course is meticulously designed to provide comprehensive knowledge and hands-on experience in SAP Advanced Business Application Programming (ABAP). ABAP serves as the primary programming language within the SAP ecosystem, empowering developers to create custom applications, reports, and enhancements.
+								</p>
+							</div>
+							<!-- Centered Buttons -->
+						<div class=" mt-5">
+							<button _ngcontent-ess-c29="" type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn" style="background-color: #39496C; color: #F69456; border: 1px solid #F69456;">
+								Download Syllabus
+								 <img _ngcontent-ess-c29="" src="https://learnum.co.in/assets/images/Learnum_UI/featherIcon/download%20(3).svg" alt="" width="18" height="18">
+							</button>						 
+							<button _ngcontent-ess-c29="" class="btn solid_btn" style="background-color:#F69456; ;"  >Apply Now</button>
+						</div>
+						  </div>
+				  
+						  <!-- Course Image (Right side) -->
+						  <div class="col-md-4 text-center">
+							<img src="https://learnum.co.in/assets/images/Learnum_UI/Image/Advanced%20Business%20Application%20Programming(SAP-ABAP)%201.png" style="width: 322px;" class="img-fluid" alt="DAT Course Image">
+						  </div>
+						</div>
+				  
+						
+					  </div>
+					</div>
+				  </div>
+			</div>
+			<div class="tab-pane" id="digitalMarketing" role="tabpanel">
+				<div class="row">
+					<!-- Course Card -->
+					<div class="col-md-12">
+					  <div class="card course-card p-4">
+						<!-- Course Name Heading at the Top -->
+						<h2 class="text-center mb-4"><b>Digital Marketing</b></h2>
+						
+						<div class="row ">
+						  <!-- Course Information (Left side) -->
+						  <div class="col-md-8">
+							<div class="course-info">
+							  <p>
+								A digital marketing course covers essential strategies and tools for online promotion, including SEO, social media, email marketing, and content creation. It teaches how to analyze digital metrics and optimize campaigns to reach target audiences effectively.
+							  </p>
+							</div>
+							<!-- Centered Buttons -->
+						<div class=" mt-5">
+							<button _ngcontent-ess-c29="" type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn" style="background-color: #39496C; color: #F69456; border: 1px solid #F69456;">
+								Download Syllabus
+								 <img _ngcontent-ess-c29="" src="https://learnum.co.in/assets/images/Learnum_UI/featherIcon/download%20(3).svg" alt="" width="18" height="18">
+							</button>						 
+							<button _ngcontent-ess-c29="" class="btn solid_btn" style="background-color:#F69456; ;"  >Apply Now</button>
+						</div>
+						  </div>
+				  
+						  <!-- Course Image (Right side) -->
+						  <div class="col-md-4 text-center">
+							<img src="https://learnum.co.in/assets/images/Learnum_UI/Image/digital marketing.jpg" style="width: 322px;" class="img-fluid" alt="DAT Course Image">
+						  </div>
+						</div>
+				  
+						
+					  </div>
+					</div>
+				  </div>
+			</div>
+			<div class="tab-pane" id="fullStack" role="tabpanel">
+				<div class="row">
+					<!-- Course Card -->
+					<div class="col-md-12">
+					  <div class="card course-card p-4">
+						<!-- Course Name Heading at the Top -->
+						<h2 class="text-center mb-4"><b>Full Stack Developer</b></h2>
+						
+						<div class="row ">
+						  <!-- Course Information (Left side) -->
+						  <div class="col-md-8">
+							<div class="course-info">
+							  <p>
+								A full stack developer course provides comprehensive training in both front-end and back-end web development. It covers languages and frameworks such as HTML, CSS, JavaScript, Node.js, and databases like MongoDB or SQL, equipping students with the skills to build and maintain complete web applications.
+							  </p>
+							</div>
+							<!-- Centered Buttons -->
+						<div class=" mt-5">
+							<button _ngcontent-ess-c29="" type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn" style="background-color: #39496C; color: #F69456; border: 1px solid #F69456;">
+								Download Syllabus
+								 <img _ngcontent-ess-c29="" src="https://learnum.co.in/assets/images/Learnum_UI/featherIcon/download%20(3).svg" alt="" width="18" height="18">
+							</button>						 
+							<button _ngcontent-ess-c29="" class="btn solid_btn" style="background-color:#F69456; ;"  >Apply Now</button>
+						</div>
+						  </div>
+				  
+						  <!-- Course Image (Right side) -->
+						  <div class="col-md-4 text-center">
+							<img src="https://learnum.co.in/assets/images/Learnum_UI/Image/Full%20stack.png" style="width: 322px;" class="img-fluid" alt="DAT Course Image">
+						  </div>
+						</div>
+				  
+						
+					  </div>
+					</div>
+				  </div>
+			</div>
+			
+			
+			
+			
+		  </div>
+		</div>
+	  </section>
+
+	  <!-- addmission process -->
+	  <section id="admission-process" class="py-5">
+		<div class="container">
+		  <div class="section-title text-center mb-5">
+			<h2>Admission Process</h2>
+			<p>Follow these simple steps to enroll in the right course for you.</p>
+		  </div>
+	  
+		  <div class="row align-items-center text-center text-md-start">
+			<!-- Step 1: Counselling -->
+			<div class="col-md-4 d-flex align-items-center mb-4 mb-md-0">
+			  <img src="https://learnum.co.in/assets/images/Learnum_UI/Image/number%201.png" alt="Counselling Icon" class="me-3" width="60" height="60">
+			  <div>
+				<h4 class="mb-1"><b>Counselling</b></h4>
+				<p class="mb-0">Talk & let us know your strengths.</p>
+			  </div>
+			</div>
+	  
+			<!-- Step 2: Assessment -->
+			<div class="col-md-4 d-flex align-items-center mb-4 mb-md-0">
+			  <img src="https://learnum.co.in/assets/images/Learnum_UI/Image/number%203.png" alt="Assessment Icon" class="me-3" width="60" height="60">
+			  <div>
+				<h4 class="mb-1"><b>Assessment</b></h4>
+				<p class="mb-0">Let us take your quick test.</p>
+			  </div>
+			</div>
+	  
+			<!-- Step 3: Interview -->
+			<div class="col-md-4 d-flex align-items-center">
+			  <img src="https://learnum.co.in/assets/images/Learnum_UI/Image/number%202.png" alt="Interview Icon" class="me-3" width="60" height="60">
+			  <div>
+				<h4 class="mb-1"><b>Interview</b></h4>
+				<p class="mb-0">Let us decide the right course.</p>
+			  </div>
+			</div>
+			
+		  </div>
+		  <div class="text-center mt-5">
+			<button _ngcontent-qgn-c29="" class="btn solid_btn text-white" style="background-color: #F69456;">Schedule Your Free Consultation</button>
+		</div>
+		</div>
+	  </section>
+	  <!-- Features section -->
+	  <section id="features" class="py-5">
+		<div class="container">
+		  <div class="section-title text-center mb-5">
+			<h2>Features</h2>
+			<p>Explore the key highlights of our course.</p>
+		  </div>
+	  
+		  <div class="row">
+			<!-- Feature 1: In-depth knowledge -->
+			<div class="col-md-3 mb-4">
+			  <img src="https://learnum.co.in/assets/images/Learnum_UI/Interactive%20Learning%20Hub.png" alt="In-depth knowledge Icon" class="mb-3" width="60" height="60">
+			  <h4 class="mb-2"><b>In-depth knowledge</b></h4>
+			  <p class="mb-0">The course curriculum covers in-depth Accounting & Taxation concepts and applications.</p>
+			</div>
+	  
+			<!-- Feature 2: 20% theory + 80% practical -->
+			<div class="col-md-3 mb-4">
+			  <img src="https://learnum.co.in/assets/images/Learnum_UI/Personalized%20Learning%20Experience.png" alt="20% theory + 80% practical Icon" class="mb-3" width="60" height="60">
+			  <h4 class="mb-2"><b>20% theory + 80% practical</b></h4>
+			  <p class="mb-0">Designed to give 20% theoretical knowledge & 80% practical training.</p>
+			</div>
+	  
+			<!-- Feature 3: Industry-expert training -->
+			<div class="col-md-3 mb-4">
+			  <img src="https://learnum.co.in/assets/images/Learnum_UI/Industry-Relevant%20Expertise.png" alt="Industry-expert training Icon" class="mb-3" width="60" height="60">
+			  <h4 class="mb-2"><b>Industry-expert training</b></h4>
+			  <p class="mb-0">Get mentorship from professionals & experts in the field.</p>
+			</div>
+	  
+			<!-- Feature 4: Placement Assistance -->
+			<div class="col-md-3 mb-4">
+			  <img src="https://learnum.co.in/assets/images/Learnum_UI/Soft%20Skills%20Booster.png" alt="Placement Assistance Icon" class="mb-3" width="60" height="60">
+			  <h4 class="mb-2"><b>Placement Assistance</b></h4>
+			  <p class="mb-0">Learn practical tips to face interviews & industry environment.</p>
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <!-- why should do it -->
+	  <section id="who-should-do-it" class="py-5">
+		<div class="container">
+		  <!-- Single Box with Image and Content Side by Side -->
+		  <div class="box d-flex align-items-center">
+			<!-- Left Side: Content -->
+			<div class="content-box p-4">
+			  <h2 class="mb-3">Who Should Do It?</h2>
+			  <p class="mb-4">
+				<img src="https://learnum.co.in/assets/images/Learnum_UI/Image/check.png" alt="Icon" class="icon-inline">
+				Any Commerce undergraduate & graduate willing to make a career in Accounting & Taxation.<br><br>
+				<img src="https://learnum.co.in/assets/images/Learnum_UI/Image/check.png" alt="Icon" class="icon-inline">
+				Any working professional, business owner, housewife, or freelancer seeking to expand their knowledge.
+			  </p>
+			  <!-- Buttons -->
+			  <div class=" mt-5">
+				<button type="button" class="btn" style=" background-color: white; color: #F69456; border: 1px solid #F69456;">
+					Download Syllabus
+					 <img src="https://learnum.co.in/assets/images/Learnum_UI/featherIcon/download%20(3).svg" alt="" width="18" height="18">
+				</button>						 
+				<button class="btn solid_btn text-white" style="background-color:#F69456; ;">Schedule Your Free Consultation</button>
+			</div>
+			</div>
+	  
+			<!-- Right Side: Image -->
+			<div class="image-box">
+			  <img src="https://learnum.co.in/assets/images/Learnum_UI/Image/CPAT_Card.png" alt="Who Should Do It Image" class="img-fluid">
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <!-- Our experts -->
+
+	  <div class="guiding_minds text-center">
+		<div class="row mt-5 justify-content-center">
+			<div class="col-lg-12">
+				<h2 class="text-center mb-2">Our Expert Faculties</h2>
+			</div>
+			
+			<!-- Member 1 -->
+			<div class="team-member">
+				<img src="https://learnum.co.in/assets/images/learnum/Dattaraj%20Jedgule.png" alt="Dattaraj Jedgule">
+				<h3>Dattaraj Jedgule</h3>
+				<p>Account Trainer</p>
+				
+			</div>
+		
+			<!-- Member 2 -->
+			<div class="team-member">
+				<img src="https://learnum.co.in/assets/images/learnum/Amit%20khaire%20(2).png" alt="Amit Khaire">
+				<h3>Amit Khaire</h3>
+				<p>TDS & Income Tax Trainer</p>
+				
+			</div>
+		
+			<!-- Member 3 -->
+			<div class="team-member">
+				<img src="https://learnum.co.in/assets/images/learnum/Noopur%20Naik.png" alt="Noopur Naik">
+				<h3>Noopur Naik</h3>
+				<p>Softs Skill Trainer</p>
+				
+			</div>
+		
+			<!-- Member 4 -->
+			<div class="team-member">
+				<img src="https://learnum.co.in/assets/images/learnum/Ganesh%20Jagtap.png" alt="Ganesh Jagtap">
+				<h3>Ganesh Jagtap</h3>
+				<p>GST Trainer</p>
+				
+			</div>
+		
+			
+		</div>
+	  </div>
+
+	  <!-- success stories -->
+	  <section id="success-stories" class="py-5">
+		<div class="container">
+		  <h2 class="mb-5 text-center">Success Stories</h2>
+	  
+		  <!-- Row for Success Stories -->
+		  <div class="row">
+	  
+			<!-- Single Success Story -->
+			<div class="col-lg-3 col-md-6 mb-4">
+			  <div class="story-box d-flex flex-column align-items-center text-center p-2" style="height: 400px; overflow: hidden;">
+				<div class="image-box mb-3">
+				  <img src="https://learnum.co.in/assets/images/learnum/Abhishekh_sonawane.png" alt="Abhishekh Sonawane" class="img-fluid w-50">
+				</div>
+				<h4>Abhishekh Sonawane</h4>
+				<p class="text-muted">Accountant<br>R. S. Mutha & Co. Chartered Accountants</p>
+	  
+				<!-- Stars before the paragraph -->
+				<div class="stars mb-2">
+				  <i class="fa fa-star" style="color:gold;"></i>
+				  <i class="fa fa-star" style="color:gold;"></i>
+				  <i class="fa fa-star" style="color:gold;"></i>
+				  <i class="fa fa-star" style="color:gold;"></i>
+				</div>
+	  
+				<!-- Scrollable paragraph -->
+				<blockquote class="blockquote scrollable-paragraph" style="max-height: 100px; overflow-y: auto;">
+					<p>"Learnum Academy's placement program was instrumental in helping me land my dream job as a Tax Consultant. The mock interviews and resume workshops boosted my confidence, and the career services team connected me with potential employers. I'm grateful for their support and guidance!"</p>
+				</blockquote>
+			  </div>
+			</div>
+	  
+			<!-- Repeat for other stories -->
+			<div class="col-lg-3 col-md-6 mb-4">
+			  <div class="story-box d-flex flex-column align-items-center text-center p-2" style="height: 400px; overflow: hidden;">
+				<div class="image-box mb-3">
+				  <img src="https://learnum.co.in/assets/images/learnum/Arihant_lohdha.png" alt="Arihant Lohdha" class="img-fluid w-50">
+				</div>
+				<h4>Arihant Lohdha</h4>
+				<p class="text-muted">Tax Advisor<br>Taxblock India Pvt. Ltd.</p>
+	  
+				<!-- Stars before the paragraph -->
+				<div class="stars mt-4 mb-2">
+			
+				  <i class="fa fa-star" style="color:gold;"></i>
+				  <i class="fa fa-star" style="color:gold;"></i>
+				  <i class="fa fa-star" style="color:gold;"></i>
+				  <i class="fa fa-star" style="color:gold;"></i>
+				</div>
+	  
+				<!-- Scrollable paragraph -->
+				<blockquote class="blockquote scrollable-paragraph" style="max-height: 100px; overflow-y: auto;">
+					<p>"As a graduate with limited experience, I found Learnum Academy's placement program incredibly helpful. The advisors provided valuable guidance on crafting my resume and interview skills."</p>
+				</blockquote>
+			  </div>
+			</div>
+	  
+			<!-- Additional Success Stories -->
+			<div class="col-lg-3 col-md-6 mb-4">
+			  <div class="story-box d-flex flex-column align-items-center text-center p-2" style="height: 400px; overflow: hidden;">
+				<div class="image-box mb-3">
+				  <img src="https://learnum.co.in/assets/images/learnum/Ajay_pokale.png" alt="Ajay Pokale" class="img-fluid w-50">
+				</div>
+				<h4>Ajay Pokale</h4>
+				<p class="text-muted">Accountant<br>R. S. Mutha & Co. Chartered Accountants</p>
+	  
+				<!-- Stars before the paragraph -->
+				<div class="stars mb-2">
+				  <i class="fa fa-star" style="color:gold;"></i>
+				  <i class="fa fa-star" style="color:gold;"></i>
+				  <i class="fa fa-star" style="color:gold;"></i>
+				  <i class="fa fa-star" style="color:gold;"></i>
+				</div>
+	  
+				<!-- Scrollable paragraph -->
+				<blockquote class="blockquote scrollable-paragraph" style="max-height: 100px; overflow-y: auto;">
+					<p>""Learnum Academy's placement program connected me with the perfect opportunity at a well-respected accounting firm. I highly recommend their services!""</p>
+				</blockquote>
+			  </div>
+			</div>
+	  
+			<!-- Another Success Story -->
+			<div class="col-lg-3 col-md-6 mb-4">
+			  <div class="story-box d-flex flex-column align-items-center text-center p-2" style="height: 400px; overflow: hidden;">
+				<div class="image-box mb-3">
+				  <img src="https://learnum.co.in/assets/images/learnum/Sahil_gaikwad.png" alt="Sahil Gaikwad" class="img-fluid w-50">
+				</div>
+				<h4>Sahil Gaikwad</h4>
+				<p class="text-muted">Accountant<br>R. S. Mutha & Co. Chartered Accountants</p>
+	  
+				<!-- Stars before the paragraph -->
+				<div class="stars mb-2">
+				  <i class="fa fa-star" style="color:gold;"></i>
+				  <i class="fa fa-star" style="color:gold;"></i>
+				  <i class="fa fa-star" style="color:gold;"></i>
+				  <i class="fa fa-star" style="color:gold;"></i>
+				</div>
+	  
+				<!-- Scrollable paragraph -->
+				<blockquote class="blockquote scrollable-paragraph" style="max-height: 100px; overflow-y: auto;">
+					<p>"The mock interviews were the most beneficial aspect of the placement program. They helped me refine my interview skills and feel confident during the real interview process."</p>
+				</blockquote>
+			  </div>
+			</div>
+	  
+		  </div>
+		</div>
+	  </section>
+	  
+	  
+	  
+
+
+	  
+	  
+	  
+	
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<!-- About -->
+				<div class="col-lg-3 footer_col">
+					<div class="footer_about">
+						<div class="logo_container">
+							<a href="#">
+								<div class="logo_content d-flex flex-row align-items-end justify-content-start">
+									<div class="logo_img">
+										<img src="https://learnum.co.in/assets/images/learnum/learnum_LOGO.png" height="70" alt="Logo">
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="footer_about_text">
+							<p>© 2024, All Rights Reserved. Taxblock Professional Academy Private Limited</p>
+						</div>
+						<div class="footer_social">
+							<ul class="footer_social_list">
+								<li><a href="https://www.facebook.com/learnum19/" target="_blank"><img src="https://learnum.co.in/assets/images/Learnum_UI/Social_icon/001-facebook.png" alt="Facebook"></a></li>
+								<li><a href="https://www.instagram.com/learnum.in/" target="_blank"><img src="https://learnum.co.in/assets/images/Learnum_UI/Social_icon/002-instagram.png" alt="Instagram"></a></li>
+								<li><a href="https://x.com/learnum_academy" target="_blank"><img src="https://learnum.co.in/assets/images/Learnum_UI/featherIcon/11053969_x_logo_twitter_new_brand_icon.svg" alt="Twitter"></a></li>
+								<li><a href="https://www.linkedin.com/company/learnum/" target="_blank"><img src="https://learnum.co.in/assets/images/Learnum_UI/Social_icon/004-linkedin.png" alt="LinkedIn"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Useful Links -->
+				<div class="col-lg-3 footer_col">
+					<div class="footer_links">
+						<div class="footer_title">Useful Links</div>
+						<ul class="footer_list">
+							<li><a href="about.html">About us</a></li>
+							<li><a href="#">Career</a></li>
+							<li><a href="#">Site Map</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">T&C</a></li>
+						</ul>
+					</div>
+				</div>
+	
+				<!-- Our Courses -->
+				<div class="col-lg-3 footer_col">
+					<div class="footer_links">
+						<div class="footer_title">Our Courses</div>
+						<ul class="footer_list">
+							<li><a href="#">DAT</a></li>
+							<li><a href="#">Advance Tally 4.0</a></li>
+							<li><a href="#">Practical Account</a></li>
+							<li><a href="#">SAP FI</a></li>
+							<li><a href="#">SAP HCM</a></li>
+							<li><a href="#">SAP ABAP</a></li>
+							<li><a href="#">Digital Marketing</a></li>
+							<li><a href="#">Full Stack</a></li>
+						</ul>
+					</div>
+				</div>
+	
+				<!-- Contact Us -->
+				<div class="col-lg-3 footer_col">
+					<div class="footer_contact">
+						<div class="footer_title">Contact Us</div>
+						<div class="footer_contact_info">
+							<div class="footer_contact_item">
+								<div class="footer_contact_title">Phone:</div>
+								<div class="footer_contact_line">08068944551</div>
+							</div>
+							<div class="footer_contact_item">
+								<div class="footer_contact_title">Email:</div>
+								<div class="footer_contact_line">education@learnum.in</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="js/courses.js"></script>
+</body>
+</html>
